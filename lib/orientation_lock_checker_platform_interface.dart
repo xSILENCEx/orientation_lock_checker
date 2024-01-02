@@ -8,7 +8,8 @@ abstract class OrientationLockCheckerPlatform extends PlatformInterface {
 
   static final Object _token = Object();
 
-  static OrientationLockCheckerPlatform _instance = MethodChannelOrientationLockChecker();
+  static OrientationLockCheckerPlatform _instance =
+      MethodChannelOrientationLockChecker();
 
   /// The default instance of [OrientationLockCheckerPlatform] to use.
   ///

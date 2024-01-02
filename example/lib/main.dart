@@ -31,7 +31,8 @@ class _MyAppState extends State<MyApp> {
     // Platform messages may fail, so we use a try/catch PlatformException.
     // We also handle the message potentially returning null.
     try {
-      isDeviceOrientationLocked = await _orientationLockCheckerPlugin.isDeviceOrientationLocked();
+      isDeviceOrientationLocked =
+          await _orientationLockCheckerPlugin.isDeviceOrientationLocked();
     } on PlatformException {
       isDeviceOrientationLocked = true;
     }
@@ -56,7 +57,8 @@ class _MyAppState extends State<MyApp> {
             title: const Text('Plugin example app'),
           ),
           body: Center(
-            child: Text('isDeviceOrientationLocked: $_isDeviceOrientationLocked\n'),
+            child: Text(
+                'isDeviceOrientationLocked: $_isDeviceOrientationLocked\n'),
           ),
         ),
       ),
