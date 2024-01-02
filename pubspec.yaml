@@ -1,7 +1,7 @@
 name: orientation_lock_checker
 description: "A Flutter plugin of detect screen orientation lock switch status"
 version: 0.0.1
-homepage:
+homepage: https://github.com/xSILENCEx/orientation_lock_checker
 
 environment:
   sdk: '>=3.2.3 <4.0.0'
